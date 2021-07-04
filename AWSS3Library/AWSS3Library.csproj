@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Gabriel Isaac</Authors>
+    <Description>A Library to GET, PUT, and DELETE objects in AWS S3</Description>
+    <PackageProjectUrl>https://github.com/Iamkemical/AWSS3Library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Iamkemical/AWSS3Library</RepositoryUrl>
+    <PackageTags>AWSS3Library</PackageTags>
+    <PackageReleaseNotes>A Library to GET, PUT, and DELETE objects in AWS S3</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+  </ItemGroup>
 
 </Project>
